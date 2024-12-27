@@ -14,6 +14,12 @@ dependencies {
 //    testImplementation 'junit:junit:4.12'
     implementation 'junit:junit:4.13.1'
 
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    // https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.11.4'
+
+
+
 }
 
 test {
